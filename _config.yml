@@ -5,11 +5,11 @@ paginate_path: "page:num"
 exclude: ["README.md"] # files to exclude
 highlighter: rouge
 markdown: kramdown
-disqus: thdev-1
+disqus: manasobi
 google_analytics: UA-92161670-1
 # Enter your Facebook app-code
-facebook_user_id: taehwan.dev
-facebook_app_id: 1793677387533254
+facebook_user_id: 100002525985416
+facebook_app_id: 266492220455685
 
 title: manasobi blog
 
