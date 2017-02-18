@@ -1,0 +1,64 @@
+---
+layout: page
+title: Android WebView sample
+header: WebView sample
+---
+
+<script type="text/javascript">
+// Android WebView call
+function updateKeyword() {
+  var keyword = document.getElementById("search_keyword").value;
+  WebViewTest.updateKeyword(keyword);
+}
+
+// Android WebView called. - keyword change
+function setKeyword(keyword) {
+  document.getElementById("search_keyword").value = keyword;
+  document.getElementById("message").innerHTML = keyword;
+}
+
+function showAlert() {
+  alert("Hello! I am an alert box!!");
+}
+
+function search() {
+  WebViewTest.hideKeyboard();
+  var url = document.getElementById("url").value;
+  alert(url);
+}
+
+// in JavaScript Code
+function onKeyDown() {
+     if(event.keyCode == 13) {
+          search();
+     }
+}
+
+function changeWebView() {
+  var url = document.getElementById("url").value;
+  WebViewTest.changeWebView(url);
+}
+</script>
+
+Android WebView sample page
+
+<br />
+<br />
+<p id="message"></p>
+
+<br />
+<br />
+<input type="text" id="search_keyword" value="Search keyword" />
+
+<br />
+<br />
+<input id="updateKeywordBtn" type="button" value="Update keyword" onclick="updateKeyword();" />
+
+<br />
+<br />
+<input id="showAlertBtn" type="button" value="Show alert" onclick="showAlert();" />
+
+<br />
+<input type="text" id="url" value="http://google.com/" onkeypress="return changeWebView();" />
+<br />
+<input id="changeWebView" type="button" value="Change WebView" onclick="changeWebView();" />

@@ -1,0 +1,44 @@
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: rouge
+markdown: kramdown
+disqus: thdev-1
+google_analytics: UA-75649351-1
+# Enter your Facebook app-code
+facebook_user_id: taehwan.dev
+facebook_app_id: 1793677387533254
+
+title: manasobi blog
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: 차가운 지성과 뜨거운 열정으로...
+
+description: manasobi
+author:
+  name: taewook-jang
+  email: zaru1113@gmail.com
+  github: ddongzaru
+  twitter: 
+  linkedin: 
+  bio: 가족, 행복, 개발자의 삶...
+  email_md5: 7589a5a8fec022e8af4e46525150a291
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+about_path: about.html
+
+# set it as url of an image
+# sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
+
+BASE_PATH:
+
+gems:
+  - jekyll-paginate
