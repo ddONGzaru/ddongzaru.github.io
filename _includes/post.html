@@ -8,12 +8,8 @@
 	 <span class="post-date">	   
 	   {{ page.date | date: "%Y년 %m월 %d일" }}		 
 	 </span>
-	  <div class="article_body">
-       <!--{% include udemy-ads.html %}-->
-       <!--{% include adsense_bottom.html %}-->
-          {% include adsense_top.html %}
-	     {{ content }}
-       
+	  <div class="article_body">       
+	     {{ content }}       
 	  </div>
 
 		{% unless page.categories == empty %}
