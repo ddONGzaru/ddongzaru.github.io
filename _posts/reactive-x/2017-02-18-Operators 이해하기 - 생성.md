@@ -2,14 +2,11 @@
 layout: post
 title: RxJava Operators 이해하기 - 생성
 categories: [Reactive Streams]
-tags: [RxJava]
+tags: [RxJava, ReactiveX, ReactiveStreams]
 fullview: false
 comments: true
 published: true
 ---
-
-Operators 이해하기 - 생성
-========================
 
 ![badge](https://img.shields.io/badge/manasobi-RxAndroid-yellowgreen.svg?style=flat-square)
 
