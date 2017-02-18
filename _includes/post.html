@@ -14,8 +14,8 @@
 	     {% when 3 or 23 %}{{ d }}rd,
 	     {% else %}{{ d }}th,
 	   {% endcase %}
-	   {{ page.date | date: "%Y" }}
-		 {{ post.date | date: "%Y년 %m월 %d일" }}
+	   {{ page.date | date: "%Y %Y년 %m월 %d일" }}
+		 <!--{{ post.date | date: "%Y년 %m월 %d일" }}-->
 	 </span>
 	  <div class="article_body">
        <!--{% include udemy-ads.html %}-->
