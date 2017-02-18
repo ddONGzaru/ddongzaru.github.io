@@ -5,7 +5,7 @@ paginate_path: "page:num"
 exclude: ["README.md"] # files to exclude
 highlighter: rouge
 markdown: kramdown
-disqus: manasobi
+disqus: https-ddongzaru-github-io
 google_analytics: UA-92161670-1
 # Enter your Facebook app-code
 #facebook_user_id: 100002525985416
