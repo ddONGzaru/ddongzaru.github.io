@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [번역] Vagrant와 docker에 대하여
+title: (번역) Vagrant와 docker에 대하여
 categories: [Vagrant]
 tags: [Vagrant, Infra, DevOps]
 fullview: false
