@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Android] RxJava로 컬렉션 조작, Http 통신(비동기처리)을 하기위한 지식
+title: RxJava로 컬렉션 조작, Http 통신(비동기처리)을 하기위한 지식
 categories: [Reactive Streams]
 tags: [RxJava, ReactiveX, ReactiveStreams]
 fullview: false
