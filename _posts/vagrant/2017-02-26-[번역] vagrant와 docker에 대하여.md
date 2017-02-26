@@ -1,0 +1,50 @@
+---
+layout: post
+title: [번역] Vagrant와 docker에 대하여
+categories: [Vagrant]
+tags: [Vagrant, Infra, DevOps]
+fullview: false
+comments: true
+published: true
+---
+
+![badge](https://img.shields.io/badge/manasobi-vagrant-yellowgreen.svg?style=flat-square)
+
+Vagrant에서 사용하는 커맨드등을 정리해봤다.(ver 1.7.3) 
+
+## VM 이미지에 SSH 접근
+
+**command** | 설명
+---|---
+vagrant ssh | 지정한 이미지로 ssh 접근
+
+## 기동 등 조작관련 
+
+**command** | 설명
+---|---
+vagrant up | VM을 기동한다. 초기 기동시에만 프로비저닝을 수행한다
+vagrant halt | 기동하고 있는 VM을 정지한다
+vagrant list | VM의 상태를 표시한다
+vagrant reload | 포트 포워딩, 공유 폴더 설정등을 변경한 경우에 변경 사항을 반영시키기 위해 사용
+vagrnat destroy | VM 이미지를 삭제
+
+## 프로비저닝 관련
+
+**command** | -
+---|---
+vagrant provision | VM을 기동한채로 프로비저닝만을 재실행
+
+## 기동 방식
+
+![alt](https://cacoo.com/diagrams/1mpLaHZCXhj0jqwE-122CC.png)
+
+[https://cacoo.com/diagrams/1mpLaHZCXhj0jqwE-122CC.png](https://cacoo.com/diagrams/1mpLaHZCXhj0jqwE-122CC.png)
+
+## 이미지 조작관련 
+
+**command** | -
+---|---
+vagrant box add | 이미지를 등록한다.
+vagrant box list | 등록한 이미지 일람을 표시한다.
+vagrant package | 기동중의 VM을 이미지에 출력한다.
+vagrant box remove | 등록한 이미지를 삭제한다.
