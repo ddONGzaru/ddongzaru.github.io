@@ -6,7 +6,7 @@ exclude: ["README.md"] # files to exclude
 highlighter: rouge
 markdown: kramdown
 disqus: https-ddongzaru-github-io
-google_analytics: UA-92161670-1
+#google_analytics: UA-92161670-1
 # Enter your Facebook app-code
 #facebook_user_id: 100002525985416
 facebook_user_id: taewook.jang.98
